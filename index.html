@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+
+    <div class="w-75 m-auto text-center my-5 shadow-lg p-5 loginDiv">
+        <h1 class=" mt-s"> Smart Login System</h1>
+
+<form >
+    <input type="email" name="emailInput" id="email" placeholder="Enter Your Email" class="w-75 p-2 my-2 ">
+    <input type="password" name="passwordInput" id="pass" placeholder="Enter Your Password" class="w-75 p-2 my-2">
+    <div class="w-100 validDivlog py-3">
+        
+    </div>
+    <button class="btn btn-outline-info w-75 is text-center p-2 my-2" id="login" type="button"> login</button>
+</form>
+
+<h5> Don’t have an account? 
+    <span class="fs-6 ">
+        <a href="#" class="text-decoration-none signup">SignUp</a>
+    </span></h5>
+    </div>
+
+    <div class="w-75 m-auto text-center my-5 d-none shadow-lg p-5 sign-up  ">
+        <h1 class=" mt-5s"> Smart Login System</h1>
+
+<form >
+    <input type="text" name="name" id="userName" placeholder="Enter Your Name"  class="w-75 p-2 my-2">
+    <input type="email" name="emailInput" id="userEmail" placeholder="Enter Your Email" class="w-75 p-2 my-2">
+    <input type="password" name="passwordInput" id="userPass" placeholder="Enter Your Password" class="w-75 p-2 my-2">
+        <div class="w-100 validDiv py-3">
+          
+        </div>
+    <button class="btn btn-outline-info w-75 text-center p-2 my-2" id="signUpbtn" type="button"> signUP</button>
+</form>
+ 
+<h5>You have an account? 
+    <a href="#" class=" text-decoration-none signin "> Signin</a>
+</h5>
+    </div>
+<div class=" text-center m-5  d-none" style="height: 100vh;" id="welcomePage">
+    <div class="d-flex justify-content-between shadow-lg p-4">
+
+        <h3  class="text-white">Smart Login</h3>
+        <button class="btn btn-outline-dark" id="logout"> 
+            logOut
+           </button>
+    </div>
+    
+     <div id="weclomeName" class="w-50 m-auto my-5 py-5 text-centet shadow-lg " >
+
+     </div>  
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

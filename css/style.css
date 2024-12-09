@@ -1,0 +1,11 @@
+body{
+    background-color: #24353F;
+    color: #17A2B8;
+}
+
+.signin{
+    cursor: pointer;
+}
+h5 , h5 a{ 
+    color: white;
+}
